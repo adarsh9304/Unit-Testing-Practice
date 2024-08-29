@@ -1,0 +1,21 @@
+{
+  "name": "testing-practice",
+  "type": "module",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha 'Testing_Practice/test-case/api.spec.js' "
+  },
+  "author": "Adarsh",
+  "license": "ISC",
+  "dependencies": {
+    "chai": "^5.1.1",
+    "chai-as-promised": "^8.0.0",
+    "chai-http": "^5.0.0",
+    "express": "^4.19.2",
+    "mocha": "^10.7.0",
+    "nock": "^13.5.4",
+    "sinon": "^18.0.0"
+  }
+}
